@@ -6,16 +6,19 @@ class CustomAppBar extends StatelessWidget {
   final String title;
   final IconData icon;
 
-
   @override
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(title,style: TextStyle(fontSize: 28),),
-        CustomSearchIcon(icon: icon,),
+        Text(
+          title,
+          style: TextStyle(fontSize: 28),
+        ),
+        CustomSearchIcon(
+          icon: icon,
+        ),
       ],
     );
   }
 }
-

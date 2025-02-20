@@ -12,24 +12,24 @@ class AddNotesButtonSheet extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 24,
             ),
-            CustomTextField(
+            const CustomTextField(
               hint: "title",
             ),
-            SizedBox(
+            const SizedBox(
               height: 16,
             ),
-            CustomTextField(
+            const CustomTextField(
               hint: "content",
               maxLines: 7,
             ),
-            SizedBox(
+            const SizedBox(
               height: 16,
             ),
-            CustomButton(),
-            SizedBox(
+            const CustomButton(),
+            const SizedBox(
               height: 16,
             ),
           ],
@@ -38,4 +38,3 @@ class AddNotesButtonSheet extends StatelessWidget {
     );
   }
 }
-

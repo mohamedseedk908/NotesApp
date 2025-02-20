@@ -39,9 +39,9 @@ class NotesItem extends StatelessWidget {
                 ),
               ),
               subtitle: Text(
-                "i Am Muhammad Sadiq Abdulhadi  A Flutter developer && backEnd Developer ",
+                "i Am Muhammad Sadiq Abdulhadi A Flutter developer && backEnd Developer ",
                 style: TextStyle(
-                  color: Colors.black.withOpacity(0.8),
+                  color: Colors.black,
                   fontSize: 20,
                 ),
               ),
@@ -56,11 +56,13 @@ class NotesItem extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(right: 24),
-              child: Text("May21, 2025",
-                  style: TextStyle(
-                    color: Colors.black.withOpacity(0.8),
-                    fontSize: 20,
-                  )),
+              child: Text(
+                "May21, 2025",
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20,
+                ),
+              ),
             ),
           ],
         ),
