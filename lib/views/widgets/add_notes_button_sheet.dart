@@ -24,7 +24,10 @@ class AddNotesButtonSheet extends StatelessWidget {
             child: AbsorbPointer(
               absorbing: state is AddNotesLoading ? true : false,
               child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
+                padding: EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                    bottom: MediaQuery.of(context).viewInsets.bottom),
                 child: AddNotesForm(),
               ),
             ),
